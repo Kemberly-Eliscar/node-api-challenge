@@ -12,6 +12,8 @@ I need this code, but don't know where, perhaps should make some middleware, don
 
 Go code!
 */
+
+// importing dot.env will allow us to look for a file in our directory that is named .env where I define the port value
 require('dotenv').config()
 
 const server = require('./server')
